@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <script src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+<body>
+    <div id="sombra">
+        <div id="painelGeral">
+
+            <!-- LABEL -->
+            <label for="n1">N1</label>
+            <input type="text" id="n1" onclick="marcarcheckbox1()">
+            <input type="checkbox" id="cb1">
+            <br>
+
+            <label for="n2">N2</label>
+            <input type="text" id="n2" onclick="marcarcheckbox2()">
+            <input type="checkbox" id="cb2">
+            <br>
+
+
+            <div id="btn">
+                <!-- BOTOES DE SINAIS -->
+                <button onclick="soma()">+</button>
+                <button onclick="sub()">-</button>
+                <button onclick="mult()">*</button>
+                <button onclick="div()">/</button>
+                <button onclick="C()">C</button>
+            </div>
+
+
+            <div id="btn2">
+                <!-- BOTÕES NUMERAL -->
+                <br>
+                <button onclick="capturaButton(1)">1</button>
+                <button onclick="capturaButton(2)">2</button>
+                <button onclick="capturaButton(3)">3</button>
+                <br>
+                <button onclick="capturaButton(4)">4</button>
+                <button onclick="capturaButton(5)">5</button>
+                <button onclick="capturaButton(6)">6</button>
+                <br>
+                <button onclick="capturaButton(7)">7</button>
+                <button onclick="capturaButton(8)">8</button>
+                <button onclick="capturaButton(9)">9</button>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

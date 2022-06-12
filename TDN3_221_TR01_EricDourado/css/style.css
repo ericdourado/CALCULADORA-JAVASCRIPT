@@ -1,0 +1,93 @@
+/* ID DIV */
+#cb1{
+    display: none;
+}
+#cb2{
+    display: none;
+}
+
+#sombra{
+    position: relative;
+    margin-top: 200px;
+    text-align: center;
+    width: 308px;
+    height: 455px;
+    margin: 0 auto;
+    background: rgb(59, 59, 59)
+    
+}
+#painelGeral {
+    text-align: center;
+    width: 300px;
+    height: 450px;
+    background: rgba(104, 104, 104,70%);
+    margin: 0 auto;
+}
+
+#painelGeral input{
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5%;
+    background-color:rgba(104, 104, 104,70%);
+    width: 210px;
+    height: 45px;
+    
+}
+
+#painelGeral label {
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: size 10px;
+    font-weight: bold;
+}
+
+/* #painelLabel {
+    background-color: rgb(177, 32, 32);
+} */
+#btn button{    
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20%;
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 50px;
+    background-color: rgba(34, 34, 34, 0.7);
+}
+#btn button:hover{
+    background-color: rgba(238, 45, 45, 0.7);
+
+}
+#btn button:active{
+    background-color: rgba(230, 98, 98, 0.7);
+
+}
+
+#btn2 button{
+
+    color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    border: 0;
+    padding: 10px;
+    border-radius: 10%;
+    margin-top: 3px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    width: 70px;    
+    height: 70px;
+    background-color: rgba(34, 34, 34, 0.7);
+}
+#btn2 button:hover{
+    background-color: rgba(238, 45, 45, 0.7);
+
+}
+#btn2 button:active{
+    background-color: rgba(230, 98, 98, 0.7);
+
+}
